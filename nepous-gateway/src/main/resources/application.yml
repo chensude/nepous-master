@@ -5,7 +5,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-server:
-  port: 7979
+        namespace: f0bd0b21-764f-459e-ae6d-b62ed26abe45
+        group: dev
+
 
 

@@ -1,6 +1,7 @@
 package com.nepous.gateway.controller;
 
-import org.springframework.beans.factory.annotation.Value;
+import com.nepous.gateway.feign.TestFeignClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class TestController {
 
-    @Value("${server.servlet.context-path}")
-    private String contentPath;
+    @Autowired
+    private TestFeignClient testFeignClient;
     @GetMapping("hello")
     public String get() {
-        return "hello"+contentPath;
+        return testFeignClient.get();
     }
 }
