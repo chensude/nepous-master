@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nepous-common/nepous-common.iml" filepath="$PROJECT_DIR$/nepous-common/nepous-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-common/nepous-common-base/nepous-common-base.iml" filepath="$PROJECT_DIR$/nepous-common/nepous-common-base/nepous-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-common/nepous-common-config/nepous-common-config.iml" filepath="$PROJECT_DIR$/nepous-common/nepous-common-config/nepous-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-common/nepous-common-core/nepous-common-core.iml" filepath="$PROJECT_DIR$/nepous-common/nepous-common-core/nepous-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-common/nepous-common-util/nepous-common-util.iml" filepath="$PROJECT_DIR$/nepous-common/nepous-common-util/nepous-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-gateway/nepous-gateway.iml" filepath="$PROJECT_DIR$/nepous-gateway/nepous-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nepous-master.iml" filepath="$PROJECT_DIR$/.idea/nepous-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nepous-zipkin/nepous-zipkin.iml" filepath="$PROJECT_DIR$/nepous-zipkin/nepous-zipkin.iml" />
+    </modules>
+  </component>
+</project>
