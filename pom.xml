@@ -25,7 +25,7 @@
     <properties>
         <nacos.version>0.2.1.RELEASE</nacos.version>
         <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
-        <spring-cloud-alibaba-dependencies.version>2.1.8.RELEASE</spring-cloud-alibaba-dependencies.version>
+        <nepous.version>1.0-SNAPSHOT</nepous.version>
     </properties>
 
 <!--***********************************************************************************************************-->
@@ -69,6 +69,28 @@
                 <groupId>com.nepous.common</groupId>
                 <artifactId>nepous-common-core</artifactId>
                 <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-common-base</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-common-config</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-common-util</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nepous.provider.api</groupId>
+                <artifactId>nepous-provider-uac-api</artifactId>
+                <version>${nepous.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

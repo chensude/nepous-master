@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.nepous.provider.api</groupId>
             <artifactId>nepous-provider-uac-api</artifactId>
-            <version>${uac.api.version}</version>
         </dependency>
         <dependency>
             <groupId>com.nepous.common</groupId>

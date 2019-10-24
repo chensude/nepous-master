@@ -11,11 +11,15 @@
 
     <artifactId>nepous-common-core</artifactId>
 
+    <properties>
+        <mp.version>3.2.0</mp.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.2.0</version>
+            <version>${mp.version}</version>
         </dependency>
     </dependencies>
 
