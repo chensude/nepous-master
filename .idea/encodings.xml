@@ -2,8 +2,17 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-common/nepous-common-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-common/nepous-common-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-common/nepous-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-common/nepous-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nepous-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nepous-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-provider-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-provider-api/nepous-provider-uac-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nepous-provider/nepous-provider-uac" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nepous-zipkin" charset="UTF-8" />
   </component>
 </project>

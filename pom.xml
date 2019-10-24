@@ -11,6 +11,10 @@
     <modules>
         <module>nepous-gateway</module>
         <module>nepous-zipkin</module>
+        <module>nepous-generator</module>
+        <module>nepous-provider</module>
+        <module>nepous-provider-api</module>
+        <module>nepous-common</module>
     </modules>
 
     <parent>
@@ -42,6 +46,13 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>${nacos.version}</version>
         </dependency>
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.14</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -55,11 +66,9 @@
             </dependency>
 
             <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${spring.cloud.alibaba.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-common-core</artifactId>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

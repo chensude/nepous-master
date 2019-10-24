@@ -11,6 +11,9 @@
         <module name="nepous-common-core" />
         <module name="nepous-common-util" />
         <module name="nepous-gateway" />
+        <module name="nepous-generator" />
+        <module name="nepous-provider-uac" />
+        <module name="nepous-provider-uac-api" />
         <module name="nepous-zipkin" />
       </profile>
     </annotationProcessing>
@@ -21,14 +24,28 @@
       <module name="nepous-common-core" target="1.8" />
       <module name="nepous-common-util" target="1.8" />
       <module name="nepous-gateway" target="1.8" />
+      <module name="nepous-generator" target="1.8" />
       <module name="nepous-master" target="1.8" />
+      <module name="nepous-provider" target="1.8" />
+      <module name="nepous-provider-api" target="1.8" />
+      <module name="nepous-provider-uac" target="1.8" />
+      <module name="nepous-provider-uac-api" target="1.8" />
       <module name="nepous-zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nepous-common-base" options="-parameters" />
+      <module name="nepous-common-config" options="-parameters" />
+      <module name="nepous-common-core" options="-parameters" />
+      <module name="nepous-common-util" options="-parameters" />
       <module name="nepous-gateway" options="-parameters" />
+      <module name="nepous-generator" options="-parameters" />
       <module name="nepous-master" options="" />
+      <module name="nepous-provider" options="" />
+      <module name="nepous-provider-api" options="" />
+      <module name="nepous-provider-uac" options="-parameters" />
+      <module name="nepous-provider-uac-api" options="-parameters" />
       <module name="nepous-zipkin" options="-parameters" />
     </option>
   </component>
