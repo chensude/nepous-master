@@ -22,6 +22,7 @@
 ##ignore this file##
 *.idea
 *.class
+*.iml
 /target/
 /.idea/
 
