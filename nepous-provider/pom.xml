@@ -19,11 +19,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.nepous.provider.api</groupId>
-            <artifactId>nepous-provider-api</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>

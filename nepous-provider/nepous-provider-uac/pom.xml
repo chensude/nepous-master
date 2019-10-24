@@ -13,13 +13,10 @@
     <artifactId>nepous-provider-uac</artifactId>
 
     <description>用户账户控制</description>
-    <properties>
-        <uac.api.version>1.0-SNAPSHOT</uac.api.version>
-    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.nepous.provider.api</groupId>
+          <groupId>com.nepous.provider.api</groupId>
             <artifactId>nepous-provider-uac-api</artifactId>
         </dependency>
         <dependency>
