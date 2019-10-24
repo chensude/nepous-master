@@ -6,10 +6,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class NepousGatewayController {
+
+public class NepousGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NepousGatewayController.class,args);
+        SpringApplication.run(NepousGatewayApplication.class,args);
     }
 
 

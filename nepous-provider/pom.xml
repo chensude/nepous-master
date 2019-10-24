@@ -2,22 +2,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>nepous-master</artifactId>
         <groupId>com.nepous</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.nepous.common</groupId>
-    <artifactId>nepous-common</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <description>同类服务的后端实现</description>
+    <groupId>com.nepous.provider</groupId>
+    <artifactId>nepous-provider</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>nepous-common-base</module>
-        <module>nepous-common-core</module>
-        <module>nepous-common-config</module>
-        <module>nepous-common-util</module>
+        <module>nepous-provider-uac</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

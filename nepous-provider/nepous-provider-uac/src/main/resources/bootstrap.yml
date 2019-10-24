@@ -12,9 +12,5 @@ spring:
         file-extension: yml
         ext-config[0]:
           group: dev
-          data-id: application.yml
-          refresh: true
-        ext-config[1]:
-          group: dev
-          data-id: gateway-dev.yml
+          data-id: provider-uac-dev.yml
           refresh: true
