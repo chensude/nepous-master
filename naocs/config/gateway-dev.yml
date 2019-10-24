@@ -1,0 +1,19 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+    multipart:
+      enabled: true
+      max-request-size: 50MB
+      max-file-size: 50MB
+  cloud:
+    gateway:
+      routes:
+        - id: integral_route
+          uri: lb://nepous-provider-uac
+          predicates:
+            - Path=/api/uac/**
+server:
+  port: 7979

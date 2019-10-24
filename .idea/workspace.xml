@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016a644d-077e-4a2e-b536-0f2e425a31a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nepous-common/nepous-common-core/src/main/java/com/nepous/core/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider-api/nepous-provider-uac-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider-api/nepous-provider-uac-api/src/main/java/com/nepous/provider/feign/TestClientApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/NepousUacApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/config/MpPageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/controller/fronted/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/controller/rpc/TestClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/model/domain/UacUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nepous-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nepous-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nepous-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naocs/img/nacos.img" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common-base/nepous-common-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common-base/nepous-common-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common-config/nepous-common-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common-config/nepous-common-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common-core/nepous-common-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common-core/nepous-common-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common-util/nepous-common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common-util/nepous-common-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/nepous-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/nepous-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-gateway/nepous-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-gateway/nepous-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-gateway/src/main/java/com/nepous/gateway/NepousGatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-gateway/src/main/java/com/nepous/gateway/NepousGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-gateway/src/main/java/com/nepous/gateway/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-gateway/src/main/java/com/nepous/gateway/feign/TestFeignClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-zipkin/nepous-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-zipkin/nepous-zipkin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-zipkin/src/main/java/com/nepous/zipkin/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nepous-zipkin/src/main/java/com/nepous/zipkin/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nepous-zipkin/target/classes/META-INF/nepous-zipkin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/nepous-common/target/" />
     <ignored path="$PROJECT_DIR$/nepous-common/nepous-common-base/target/" />
@@ -63,43 +27,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/nepous-gateway/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nepous-gateway/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nepous-provider-api/nepous-provider-uac-api/src/main/java/com/nepous/provider/feign/TestClientApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/java/com/nepous/provider/NepousUacApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -198,6 +138,17 @@
               <item name="nepous-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="nepous-master" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nepous-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nepous-master" type="462c0819:PsiDirectoryNode" />
+              <item name="naocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nepous-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nepous-master" type="462c0819:PsiDirectoryNode" />
+              <item name="naocs" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +164,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571909816662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571910553482" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/naocs" />
       <recent name="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -232,11 +184,11 @@
       <recent name="com.nepous.provider.api.fegin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/naocs/img" />
       <recent name="$PROJECT_DIR$/nepous-common/nepous-common-core/src/main/resources" />
       <recent name="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources" />
       <recent name="$PROJECT_DIR$/nepous-provider/nepous-provider-uac/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/nepous-provider/src/main/resources" />
-      <recent name="$PROJECT_DIR$/nepous-zipkin/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,17 +280,17 @@
       <workItem from="1571829214141" duration="4446000" />
       <workItem from="1571879302756" duration="9303000" />
       <workItem from="1571895369944" duration="1996000" />
-      <workItem from="1571897941087" duration="9264000" />
+      <workItem from="1571897941087" duration="9828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39407000" />
+    <option name="totallyTimeSpent" value="39971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1680" height="947" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49489796" visible="true" weight="0.33214286" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49489796" visible="true" weight="0.27440476" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.18017058" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -348,7 +300,7 @@
       <window_info id="Web" order="7" sideWeight="0.50510204" side_tool="true" weight="0.21611722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32850778" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49573562" visible="true" weight="0.24618992" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.24618992" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" sideWeight="0.49840087" weight="0.4384525" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +311,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49946696" weight="0.2848769" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49946696" visible="true" weight="0.2848769" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,13 +352,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nepous-gateway/src/main/java/com/nepous/gateway/NepousApplication.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nepous-zipkin/src/main/java/com/nepous/zipkin/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -713,7 +658,14 @@
     <entry file="file://$PROJECT_DIR$/nepous-gateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
