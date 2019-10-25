@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.nepous.provider.api</groupId>
-            <artifactId>nepous-provider-api</artifactId>
+            <artifactId>nepous-provider-uac-api</artifactId>
         </dependency>
 
         <dependency>
