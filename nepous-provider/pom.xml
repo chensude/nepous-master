@@ -17,16 +17,18 @@
         <module>nepous-provider-uac</module>
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.nepous.provider.api</groupId>
-            <artifactId>nepous-provider-api</artifactId>
-        </dependency>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.nepous.provider.api</groupId>
+                <artifactId>nepous-provider-api</artifactId>
+            </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-    </dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
