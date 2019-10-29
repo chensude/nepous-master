@@ -15,9 +15,7 @@
     <modules>
         <module>nepous-common-base</module>
         <module>nepous-common-core</module>
-        <module>nepous-common-config</module>
         <module>nepous-common-util</module>
     </modules>
-
 
 </project>

@@ -12,5 +12,10 @@
 
     <artifactId>nepous-common-base</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+    </dependencies>
 </project>
