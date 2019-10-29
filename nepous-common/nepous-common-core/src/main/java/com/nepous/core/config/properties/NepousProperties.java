@@ -9,4 +9,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class NepousProperties {
     private SwaggerProperties swagger = new SwaggerProperties();
 
+
+    private AsyncTaskProperties task = new AsyncTaskProperties();
 }
