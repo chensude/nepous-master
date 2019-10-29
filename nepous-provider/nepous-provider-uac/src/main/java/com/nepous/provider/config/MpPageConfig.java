@@ -3,8 +3,10 @@ package com.nepous.provider.config;
 import com.nepous.core.config.MybatisPlusConfig;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@Import(MybatisPlusConfig.class)
+@EnableWebMvc
+@Import({MybatisPlusConfig.class})
 public class MpPageConfig {
 }

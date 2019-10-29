@@ -13,7 +13,7 @@
     </parent>
     <groupId>com.nepous.gateway</groupId>
     <artifactId>nepous-gateway</artifactId>
-
+    <version>1.0-SNAPSHOT</version>
     <properties>
         <nacos.version>0.2.1.RELEASE</nacos.version>
     </properties>
