@@ -27,6 +27,7 @@
         <spring.cloud.version>Greenwich.SR2</spring.cloud.version>
         <nepous.version>1.0-SNAPSHOT</nepous.version>
         <springfox.version>2.6.1</springfox.version>
+        <rocketmq.version>4.1.0-incubating</rocketmq.version>
     </properties>
 
 <!--***********************************************************************************************************-->
@@ -66,7 +67,12 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- paas cloud end -->
+
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-client</artifactId>
+                <version>${rocketmq.version}</version>
+            </dependency>
             <!-- swagger cloud start -->
             <dependency>
                 <groupId>io.springfox</groupId>

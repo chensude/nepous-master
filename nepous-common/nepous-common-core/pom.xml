@@ -13,12 +13,18 @@
 
     <properties>
         <mp.version>3.2.0</mp.version>
+        <rocketmq.version>4.1.0-incubating</rocketmq.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.nepous.common</groupId>
             <artifactId>nepous-common-base</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>${rocketmq.version}</version>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -46,6 +52,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>eu.bitwalker</groupId>
