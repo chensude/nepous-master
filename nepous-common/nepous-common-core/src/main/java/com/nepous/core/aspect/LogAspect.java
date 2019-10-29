@@ -14,6 +14,8 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.task.TaskExecutor;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -30,8 +32,8 @@ public class LogAspect {
 //    @Autowired
 //    private RestTemplate restTemplate;
 //
-//    @Autowired
-//    private TaskExecutor taskExecutor;
+    @Autowired
+    private TaskExecutor taskExecutor;
 
     private static final int MAX_SIZE = 2000;
 
