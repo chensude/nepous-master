@@ -7,8 +7,8 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 127.0.0.1:8848
-        namespace: f0bd0b21-764f-459e-ae6d-b62ed26abe45
+        server-addr: nepous.nacos.com:8848
+        namespace: 0c0760cc-b7a9-44ad-95b2-a949c025ab26
         file-extension: yml
         ext-config[0]:
           group: dev
