@@ -16,7 +16,7 @@
 ##### 后面慢慢优化
 
 
-##### init-project：拉取这个分之的代码
+##### add-base-properties：拉取这个分之的代码
 nacos的配置在nacos文件夹下
 启动项目：需要配置host: 111.231.57.87  nepous.nacos.com
 
