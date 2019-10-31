@@ -1,5 +1,6 @@
 package com.nepous.provider.controller.fronted;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
@@ -46,10 +47,23 @@ public class TestController {
         System.out.println("insertCount:"+insert);
     }
 
-    @LogAnnotation(isSaveRequestData = true)
-    @GetMapping("log")
+   // @LogAnnotation(isSaveRequestData = true)
+    @GetMapping("/log")
+    @SentinelResource("log")
     public Result testLogAnnotation() {
         return RestResult.ok("Log Annotation");
+    }
+
+    @GetMapping("/hello")
+    @SentinelResource("hello")
+    public Result testHelloLogAnnotation() {
+        return RestResult.ok("Log Annotation Hello");
+    }
+
+    @GetMapping("/tesd")
+    @SentinelResource("tesd")
+    public Result testTesd (){
+        return RestResult.ok("Log Annotation tesd");
     }
 
 
