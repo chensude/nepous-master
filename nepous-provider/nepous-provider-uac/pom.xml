@@ -22,6 +22,13 @@
         <dependency>
             <groupId>com.nepous.common</groupId>
             <artifactId>nepous-common-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nepous.common</groupId>
+            <artifactId>nepous-security-app</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 </project>

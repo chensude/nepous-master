@@ -16,5 +16,7 @@
         <module>nepous-common-base</module>
         <module>nepous-common-core</module>
         <module>nepous-common-util</module>
+        <module>nepous-security-core</module>
+        <module>nepous-security-app</module>
     </modules>
 </project>

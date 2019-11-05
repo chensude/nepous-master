@@ -8,11 +8,11 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nepous.provider.model.domain.UacUser;
 import org.apache.ibatis.annotations.Param;
 
+public interface UacUserMapper extends BaseMapper<UacUser> {
 
-public interface UserMapper extends BaseMapper<UacUser> {
-
-    UacUser getUserById(@Param(Constants.WRAPPER) Wrapper<UacUser> wrapper);
 
     IPage<UacUser> selectMyUserPage(Page<UacUser> page,
                                     @Param(Constants.WRAPPER) Wrapper<UacUser> wrapper);
- }
+
+    UacUser selectUserInfoByUserId(Long id);
+}

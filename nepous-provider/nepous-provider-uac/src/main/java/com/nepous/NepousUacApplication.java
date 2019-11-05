@@ -1,4 +1,4 @@
-package com.nepous.provider;
+package com.nepous;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

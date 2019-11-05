@@ -67,7 +67,6 @@
                 <scope>import</scope>
             </dependency>
 
-
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-client</artifactId>
@@ -105,6 +104,11 @@
             <dependency>
                 <groupId>com.nepous.common</groupId>
                 <artifactId>nepous-common-util</artifactId>
+                <version>${nepous.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-security-app</artifactId>
                 <version>${nepous.version}</version>
             </dependency>
             <dependency>

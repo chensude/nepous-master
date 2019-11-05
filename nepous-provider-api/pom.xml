@@ -30,6 +30,9 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.nepous.common</groupId>
+            <artifactId>nepous-common-base</artifactId>
+        </dependency>
     </dependencies>
-
 </project>
