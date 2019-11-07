@@ -18,6 +18,7 @@
     </modules>
 
     <dependencies>
+
         <dependency>
             <groupId>com.nepous.provider.api</groupId>
             <artifactId>nepous-provider-uac-api</artifactId>
@@ -38,6 +39,7 @@
             <artifactId>sentinel-datasource-nacos</artifactId>
             <version>1.5.2</version>
         </dependency>
+
     </dependencies>
     <profiles>
         <profile>

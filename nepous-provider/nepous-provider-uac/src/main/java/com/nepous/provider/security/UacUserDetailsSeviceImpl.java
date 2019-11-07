@@ -8,12 +8,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
@@ -32,6 +29,8 @@ public class UacUserDetailsSeviceImpl implements UserDetailsService {
         if (user == null) {
             throw new BadCredentialsException("用户名不存在或者密码错误");
         }
+
+        log.info("user:"+user);
         user = uacUserService.selectUserInfoByUserId(user.getId());
         grantedAuthorities = uacUserService.loadUserAuthorities(user.getId());
         return new SecurityUser(user.getId(), user.getLoginName(), user.getLoginPwd(),

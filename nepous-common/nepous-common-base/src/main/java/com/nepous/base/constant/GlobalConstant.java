@@ -20,7 +20,8 @@ public class GlobalConstant {
     public static final String LOCALHOST_IP = "127.0.0.1";
     public static final String LOCALHOST_IP_16 = "0:0:0:0:0:0:0:1";
     public static final int MAX_IP_LENGTH = 15;
-
+    public static final int EXCEPTION_CAUSE_MAX_LENGTH = 2048;
+    public static final int EXCEPTION_MESSAGE_MAX_LENGTH = 2048;
 
     public static final String ROOT_PREFIX = "nepous";
 

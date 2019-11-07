@@ -23,11 +23,15 @@
         <version>2.1.6.RELEASE</version>
     </parent>
     <properties>
+        <commons-codec.version>1.10</commons-codec.version>
         <nacos.version>0.2.1.RELEASE</nacos.version>
         <spring.cloud.version>Greenwich.SR2</spring.cloud.version>
         <nepous.version>1.0-SNAPSHOT</nepous.version>
         <springfox.version>2.6.1</springfox.version>
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
+
+        <jjwt.version>0.7.0</jjwt.version>
+
     </properties>
 
 <!--***********************************************************************************************************-->
@@ -115,6 +119,22 @@
                 <groupId>com.nepous.provider.api</groupId>
                 <artifactId>nepous-provider-uac-api</artifactId>
                 <version>${nepous.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.5</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

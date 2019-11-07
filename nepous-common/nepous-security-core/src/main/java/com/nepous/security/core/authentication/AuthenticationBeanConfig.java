@@ -31,4 +31,7 @@ public class AuthenticationBeanConfig {
         return new DefaultUserDetailsServiceImpl();
     }
 
+
+
+
 }

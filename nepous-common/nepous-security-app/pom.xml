@@ -12,7 +12,6 @@
     <groupId>com.nepous.common</groupId>
     <artifactId>nepous-security-app</artifactId>
 
-
     <dependencies>
         <dependency>
             <groupId>com.nepous.common</groupId>
