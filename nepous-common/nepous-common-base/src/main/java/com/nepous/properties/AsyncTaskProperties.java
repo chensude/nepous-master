@@ -1,4 +1,4 @@
-package com.nepous.core.config.properties;
+package com.nepous.properties;
 
 import lombok.Data;
 

@@ -14,3 +14,5 @@ nepous:
         scope: "*"
       tokenStore: jwt
       jwtSigningKey: nepous
+  zk:
+    zkAddressList: 111.231.57.87:2181

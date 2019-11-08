@@ -1,6 +1,6 @@
-package com.nepous.core.config;
+package com.nepous;
 
-import com.nepous.core.config.properties.NepousProperties;
+import com.nepous.properties.NepousProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 

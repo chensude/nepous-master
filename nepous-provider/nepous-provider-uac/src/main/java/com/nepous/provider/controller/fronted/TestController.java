@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nepous.core.annotation.LogAnnotation;
+import com.nepous.core.generator.IncrementIdGenerator;
+import com.nepous.core.generator.UniqueIdGenerator;
 import com.nepous.provider.mapper.UacUserMapper;
 import com.nepous.provider.model.domain.UacUser;
 import com.nepous.util.result.RestResult;
@@ -64,6 +66,8 @@ public class TestController {
     @GetMapping("/hello")
     @SentinelResource("hello")
     public Result testHelloLogAnnotation() {
+        System.out.println( "最后的ID："+UniqueIdGenerator.generateId());
+        System.out.println("serviceId: "+IncrementIdGenerator.getServiceId());
         return RestResult.ok("Log Annotation Hello");
     }
 

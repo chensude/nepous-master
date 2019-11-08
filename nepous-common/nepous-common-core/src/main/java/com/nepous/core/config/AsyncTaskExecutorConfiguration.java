@@ -1,6 +1,6 @@
 package com.nepous.core.config;
 
-import com.nepous.core.config.properties.NepousProperties;
+import com.nepous.properties.NepousProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;

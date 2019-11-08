@@ -18,5 +18,6 @@
         <module>nepous-common-util</module>
         <module>nepous-security-core</module>
         <module>nepous-security-app</module>
+        <module>nepous-common-zk</module>
     </modules>
 </project>

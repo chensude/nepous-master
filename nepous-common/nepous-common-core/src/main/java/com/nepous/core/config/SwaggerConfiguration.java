@@ -1,11 +1,10 @@
 package com.nepous.core.config;
 
-import com.nepous.core.config.properties.NepousProperties;
-import com.nepous.core.config.properties.SwaggerProperties;
+import com.nepous.properties.NepousProperties;
+import com.nepous.properties.SwaggerProperties;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;

@@ -26,6 +26,11 @@ public class GlobalConstant {
     public static final String ROOT_PREFIX = "nepous";
 
 
+    public static final String ZK_REGISTRY_SERVICE_ROOT_PATH = "/nepous/registry/service";
+    public static final String ZK_REGISTRY_ID_ROOT_PATH = "/nepous/registry/id";
+    public static final String ZK_REGISTRY_PRODUCER_ROOT_PATH = "/nepous/registry/producer";
+    public static final String ZK_REGISTRY_CONSUMER_ROOT_PATH = "/nepous/registry/consumer";
+    public static final String ZK_REGISTRY_SEQ = "/nepous/seq";
     /**
      * 全局符号
      *

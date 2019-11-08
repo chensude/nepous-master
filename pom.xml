@@ -112,6 +112,11 @@
             </dependency>
             <dependency>
                 <groupId>com.nepous.common</groupId>
+                <artifactId>nepous-common-zk</artifactId>
+                <version>${nepous.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nepous.common</groupId>
                 <artifactId>nepous-security-app</artifactId>
                 <version>${nepous.version}</version>
             </dependency>
@@ -135,6 +140,12 @@
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
                 <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xiaoleilu</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>3.0.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
