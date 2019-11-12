@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper  namespace="com.nepous.provider.mapper.UacUserMapper">
+<mapper  namespace="com.nepous.security.mapper.UacUserMapper">
 
     <sql id="Base_Column_List">
         u.id as id,
@@ -31,16 +31,16 @@
         u.update_time as updateTime,
         u.last_login_location as lastLoginLocation
     </sql>
-    <select id="getUserById" resultType="com.nepous.provider.model.domain.UacUser">
+    <select id="getUserById" resultType="com.nepous.security.model.domain.UacUser">
         select user_name from pc_uac_user ${ew.customSqlSegment}
     </select>
 
 
-    <select id="selectMyUserPage" resultType="com.nepous.provider.model.domain.UacUser">
+    <select id="selectMyUserPage" resultType="com.nepous.security.model.domain.UacUser">
         select * from pc_uac_user ${ew.customSqlSegment}
     </select>
 
-    <select id="selectUserInfoByUserId" resultType="com.nepous.provider.model.domain.UacUser">
+    <select id="selectUserInfoByUserId" resultType="com.nepous.security.model.domain.UacUser">
         SELECT
         <include refid="Base_Column_List"/>,
         g.id as groupId,

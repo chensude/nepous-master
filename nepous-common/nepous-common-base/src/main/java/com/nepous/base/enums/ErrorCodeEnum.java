@@ -405,7 +405,7 @@ public enum ErrorCodeEnum {
      * get Enums
      *
      */
-    public static ErrorCodeEnum geteEnum(int code) {
+    public static ErrorCodeEnum getEnum(int code) {
         for (ErrorCodeEnum el: ErrorCodeEnum.values()) {
             if(el.code==code) {
                 return el;

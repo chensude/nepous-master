@@ -19,5 +19,6 @@
         <module>nepous-security-core</module>
         <module>nepous-security-app</module>
         <module>nepous-common-zk</module>
+        <module>nepous-security-feign</module>
     </modules>
 </project>

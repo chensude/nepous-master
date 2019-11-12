@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-@MapperScan("com.nepous.provider.mapper")
+@MapperScan("com.nepous.security.mapper")
 public class NepousUacApplication {
 
     public static void main(String[] args) {

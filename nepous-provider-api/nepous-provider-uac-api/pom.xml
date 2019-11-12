@@ -11,5 +11,12 @@
 
     <groupId>com.nepous.provider.api</groupId>
     <artifactId>nepous-provider-uac-api</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.nepous.common</groupId>
+            <artifactId>nepous-security-feign</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
