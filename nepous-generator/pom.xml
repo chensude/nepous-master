@@ -9,8 +9,46 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.nepous.generator</groupId>
+    <groupId>com.nepous</groupId>
     <artifactId>nepous-generator</artifactId>
 
+    <packaging>jar</packaging>
+
+    <properties>
+        <mp.version>3.2.0</mp.version>
+        <rocketmq.version>4.1.0-incubating</rocketmq.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.29</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.23</version>
+        </dependency>
+    </dependencies>
 
 </project>

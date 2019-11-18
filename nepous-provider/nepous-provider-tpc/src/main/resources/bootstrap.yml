@@ -1,0 +1,28 @@
+#读取配置中心的内容
+#bootstrap 用来配置nacos-config的配置
+#请替换namaspace配置(你自己的namespace)在nacos后台新建application.yml,右上角的字符串
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+#        server-addr: 127.0.0.1:8848
+#        namespace: f0bd0b21-764f-459e-ae6d-b62ed26abe45
+        server-addr: nepous.nacos.com:8848
+        namespace: 0c0760cc-b7a9-44ad-95b2-a949c025ab26
+        file-extension: yml
+        ext-config[0]:
+          group: dev
+          data-id: provider-uac-dev.yml
+          refresh: true
+
+
+
+
+
+logging:
+  level:
+#    com.nepous.provider.mapper: trace
+#    com.alibaba.nacos.client.naming: error
+    com.nepous.security.feign.TestClient: DEBUG

@@ -1,0 +1,33 @@
++spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nepous.nacos.com:8848
+  application:
+    name: nepous-provider-uac
+nepous:
+  security:
+    oauth2:
+      clients[0]:
+        clientId: nepous-provider-uac
+        clientSecret: nepous-uac
+        scope: "*"
+      tokenStore: jwt
+      jwtSigningKey: nepous
+  oauth2:
+    client:
+      id: nepous-provider-uac
+      accessTokenUrl: http://localhost:10003/oauth/token
+      clientId: nepous-provider-uac
+      clientSecret: nepous-uac
+      clientAuthenticationScheme: header
+  zk:
+    zkAddressList: 111.231.57.87:2181
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
