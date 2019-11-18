@@ -107,11 +107,12 @@ public class ConfigProvider {
      * 策略配置
      *
      */
-    private static StrategyConfig strategyConfig(String [] tablePrefixs) {
+    private static StrategyConfig strategyConfig(String [] tablePrefixs,String[] tablesName) {
         return new StrategyConfig()
                 .setCapitalMode(true) // 全局大写命名 ORACLE 注意
                 .setTablePrefix(tablePrefixs)// 此处可以修改为您的表前缀(数组)
                 .setNaming(NamingStrategy.underline_to_camel) // 表名生成策略
+                .setInclude(tablesName)//修改替换成你需要的表名，多个表名传数组
                 .setColumnNaming(NamingStrategy.underline_to_camel)
                 .setRestControllerStyle(true)
                 .setEntityLombokModel(true) // lombok实体
@@ -126,10 +127,10 @@ public class ConfigProvider {
      */
     public static void execute(DbType dbType, String dbUrl, String username,
                                String password, String driver,
-                               String [] tablePrefixs, String packageName) {
+                               String [] tablePrefixs,String[] tablesNames, String packageName) {
         GlobalConfig gc = globalConfig();
         DataSourceConfig dataSourceConfig = dataSourceConfig(dbType, dbUrl, username, password, driver);
-        StrategyConfig strategyConfig = strategyConfig(tablePrefixs);
+        StrategyConfig strategyConfig = strategyConfig(tablePrefixs,tablesNames);
         PackageConfig packageConfig = packageConfig(packageName);
         InjectionConfig injectionConfig = injectionConfig(packageConfig);
 

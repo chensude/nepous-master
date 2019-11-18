@@ -31,8 +31,12 @@ public class GlobalConstant {
     //基本包名
     public static String BASE_PACKAGE_NAME = "com.nepous";
 
-    //基本包名
+    //修改为您的表前缀(数组)
     public static String[] TABLE_PREFIX = {""};
+
+
+    // 表名，为空，生成所有的表
+    public static String [] TABLE_NAMES = {};
 
     public  static  final class DataSourceMap{
         private DataSourceMap() {}

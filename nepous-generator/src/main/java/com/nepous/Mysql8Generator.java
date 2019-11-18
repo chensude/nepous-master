@@ -24,7 +24,8 @@ public class Mysql8Generator {
             String password = map.get(GlobalConstant.DataSourceMap.password);
             String[] tablePrefixs = GlobalConstant.TABLE_PREFIX;
             String packageName = GlobalConstant.BASE_PACKAGE_NAME;
-            ConfigProvider.execute(dbType, dbUrl, username, password, driver, tablePrefixs, packageName);
+            String[] tablesName = GlobalConstant.TABLE_NAMES;
+            ConfigProvider.execute(dbType, dbUrl, username, password, driver, tablePrefixs,tablesName, packageName);
         } catch (Exception e) {
             e.printStackTrace();
         }
