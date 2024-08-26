@@ -26,7 +26,7 @@
         <nacos.version>0.2.1.RELEASE</nacos.version>
         <spring.cloud.version>Greenwich.SR2</spring.cloud.version>
         <nepous.version>1.0-SNAPSHOT</nepous.version>
-        <springfox.version>2.6.1</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
         <rocketmq.version>4.1.0-incubating</rocketmq.version>
     </properties>
 
